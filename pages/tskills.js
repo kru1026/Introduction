@@ -5,7 +5,7 @@ export default function TechnicalSkills() {
         <h1>Technical Skills</h1>
 
         <div className="skill-card">
-          <h2>Web Development</h2>
+          <h2 style={{ marginBottom: "15px" }}>Web Development</h2>
           <span>HTML</span>
           <span>DOM</span>
           <span>CSS</span>
@@ -17,7 +17,7 @@ export default function TechnicalSkills() {
         </div>
 
         <div className="skill-card">
-          <h2>Programming Languages</h2>
+          <h2 style={{ marginBottom: "15px" }}>Programming Languages</h2>
           <span>C</span>
           <span>C++</span>
           <span>Java</span>
@@ -26,21 +26,21 @@ export default function TechnicalSkills() {
         </div>
 
         <div className="skill-card">
-          <h2>Database</h2>
+          <h2 style={{ marginBottom: "15px" }}>Database</h2>
           <span>Oracle Database</span>
           <span>PostgreSQL</span>
           <span>MongoDB</span>
         </div>
 
         <div className="skill-card">
-          <h2>Cloud & Container Technologies</h2>
+          <h2 style={{ marginBottom: "15px" }}>Cloud & Container Technologies</h2>
           <span>AWS</span>
           <span>Microsoft Azure</span>
           <span>Docker</span>
         </div>
 
         <div className="skill-card">
-          <h2>Mobile Development</h2>
+          <h2 style={{ marginBottom: "15px" }}>Mobile Development</h2>
           <span>Xcode</span>
           <span>Android Studio</span>
           <span>Xamarin</span>

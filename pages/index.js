@@ -76,6 +76,13 @@ export default function Home() {
         <hr />
 
         <section>
+          <Link href="/interests" style={{ textDecoration: "none" }}>
+            <h2 style={{ marginBottom: "15px", marginTop: "15px" }}>Interests</h2>
+          </Link>
+        </section>
+        <hr />
+
+        <section>
           <Link href="/hireme" style={{ textDecoration: "none" }}>
             <h2 style={{ marginBottom: "15px", marginTop: "15px" }}>Why Hire Me?</h2>
           </Link>
