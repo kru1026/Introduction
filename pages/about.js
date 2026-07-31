@@ -7,8 +7,7 @@ export default function AboutMe() {
         <hr />
 
         <p>
-          Hello! I am a{" "}
-          <span className="highlight"> passionate software developer</span>
+          Hello! I am a <span className="highlight">passionate software developer</span>{" "}
           focused on building responsive, scalable, and user-friendly web
           applications.
         </p>
