@@ -8,7 +8,7 @@ export default function AboutMe() {
 
         <p>
           Hello! I am a{" "}
-          <span className="highlight">passionate software developer</span>
+          <span className="highlight"> passionate software developer</span>
           focused on building responsive, scalable, and user-friendly web
           applications.
         </p>
