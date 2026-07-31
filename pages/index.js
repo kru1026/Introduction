@@ -1,4 +1,6 @@
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main
@@ -49,51 +51,44 @@ export default function Home() {
             - Full Stack Developer
           </h2>
         </header>
-        <hr /><br />
+        <br /><hr />
 
         <section>
-          <a
-            href={`${process.env.NEXT_PUBLIC_API_URL}/api/aboutme`}
-            style={{ textDecoration: "none" }}
-          >
-          <h2 style={{ marginBottom: "10px" }}>About Me</h2></a>
+          <Link href="/about" style={{ textDecoration: "none" }}>
+            <h2 style={{ marginBottom: "15px", marginTop: "15px"}}>About Me</h2>
+          </Link>
         </section>
-
         <hr />
 
-        <section style={{marginBottom: "15px"}}>
-          <a
-            href={`${process.env.NEXT_PUBLIC_API_URL}/api/tskills`}
-            style={{ textDecoration: "none" }}
-          ><h2 style={{ marginTop: "15px", marginBottom: "10px" }}>Technical Skills </h2></a>
+        <section>
+          <Link href="/tskills" style={{ textDecoration: "none" }}>
+            <h2 style={{ marginBottom: "15px", marginTop: "15px" }}>Technical Skills</h2>
+          </Link>
         </section>
 
         <hr />
 
         <section>
-          <a
-            href={`${process.env.NEXT_PUBLIC_API_URL}/api/projects`}
-            style={{ textDecoration: "none" }}
-          ><h2 style={{ marginTop: "15px", marginBottom: "10px" }}>Projects</h2></a>
+          <Link href="/projects" style={{ textDecoration: "none" }}>
+            <h2 style={{ marginBottom: "15px", marginTop: "15px" }}>Projects</h2>
+          </Link>
+        </section>
+        <hr />
+
+        <section>
+          <Link href="/hireme" style={{ textDecoration: "none" }}>
+            <h2 style={{ marginBottom: "15px", marginTop: "15px" }}>Why Hire Me?</h2>
+          </Link>
         </section>
 
         <hr />
 
         <section>
-          <a
-            href={`${process.env.NEXT_PUBLIC_API_URL}/api/hireme`}
-            style={{ textDecoration: "none" }}
-          ><h2 style={{ marginTop: "15px", marginBottom: "7px" }}>Why Hire Me?</h2></a>
+          <Link href="/contact" style={{ textDecoration: "none" }}>
+            <h2 style={{ marginBottom: "15px", marginTop: "15px" }}>Contact</h2>
+          </Link>
         </section>
-
         <hr />
-
-        <section>
-          <a
-            href={`${process.env.NEXT_PUBLIC_API_URL}/api/contact`}
-            style={{ textDecoration: "none" }}
-          ><h2 style={{ marginTop: "10px", marginBottom: "7px" }}>Contact</h2></a><hr />
-        </section>
       </section>
     </main>
   );
