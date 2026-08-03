@@ -53,9 +53,37 @@ export default function Projects() {
           <span className="tag">RESTful APIs</span>
         </div>
 
+        <div className="projects">
+          <a 
+            className="project-link" 
+            href="https://prj-666-s.vercel.app" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Project: Find Me a Tutor
+          </a>
+
+          <a 
+            className="project-link" 
+            href="https://web422-a6-front.vercel.app" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Project: Metropolitan Museum of Art
+          </a>
+        </div>
+
       </div>
 
       <style jsx>{`
+        .projects {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          margin-top: 30px;
+          color: green;
+        }
+
         .page {
           font-family: Arial, sans-serif;
           background-color: #f4f7fb;
