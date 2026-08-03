@@ -72,6 +72,12 @@ export default function Projects() {
             Project: Metropolitan Museum of Art
           </a>
         </div>
+        <br />
+        <p>These projects used a free platform to keep them hosted online. Due to limitations,
+          the host may shut down the services after inactivities. Everytime these web pages
+          are opened, it takes time for the server to setup. Please wait 3 to 5 minutes for the
+          backend to fire up. If it is not finished loading after 5 minutes, please let me know.
+        </p>
 
       </div>
 
